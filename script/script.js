@@ -206,7 +206,7 @@ const CONFIG = {
       category: "Uni Links",
       name: "USW Referencing",
       key: "x",
-      url: "#",
+      url: "https://uppercenter.github.io/Psychic-Telegram/usw.pdf",
       color: "linear-gradient(135deg, #7A5F00, #E8B708)",
       icon: "pdf",
       quickLaunch: true
