@@ -10,7 +10,7 @@
   --font-weight-bold: 700;
 }
 
-/* @font-face {
+@font-face {
   font-family: Hack;
   font-style: normal;
   font-weight: 400;
@@ -24,7 +24,7 @@
   font-weight: 900;
   src: local("Hack Bold"), local("Hack-Bold"),
     url("../assets/fonts/Hack-Bold.ttf") format("ttf");
-} */
+}
 
 * {
   box-sizing: border-box;
@@ -46,7 +46,7 @@ body {
   padding: 0;
   transition: background 0.2s;
   background: var(--background);
-  color: white;
+  color: var(--foreground);
 }
 
 input,
