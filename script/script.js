@@ -20,7 +20,7 @@ const CONFIG = {
       key: "*",
       url: "https://duckduckgo.com",
       search: "/?q={}",
-      color: "#DE5833"
+      color: "linear-gradient(135deg, #0c6fd1 0%, #bd59c7 100%)"
     },
     {
       category: "Personal",
@@ -48,7 +48,7 @@ const CONFIG = {
       key: "y",
       url: "https://youtube.co.uk",
       search: "/results?search_query={}",
-      color: "linear-gradient(135deg, #006CA4, #0077B5)",
+      color: "linear-gradient(to right, #5614b0, #dbd65c)",
       icon: "youtube",
       quickLaunch: true
     },
