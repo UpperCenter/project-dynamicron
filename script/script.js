@@ -37,7 +37,7 @@ const CONFIG = {
       name: "GitHub",
       key: "g",
       url: "https://github.com",
-      search: "/drive/search?q={}",
+      search: "/search?q={}",
       color: "linear-gradient(135deg, #FFD04B, #1EA362, #4688F3)",
       icon: "github",
       quickLaunch: false
