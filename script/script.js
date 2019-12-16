@@ -7,20 +7,13 @@ if (localStorage.getItem("reverseColorCookie") === null) {
 }
 
 const CONFIG = {
-  /**
-   * The category, name, key, url, search path, color, icon, and quicklaunch properties for your commands.
-   * Icons must be added to "icons" folder and their values/names must be updated.
-   * If none of the specified keys are matched, the '*' key is used.
-   * Commands without a category don't show up in the help menu.
-   * Update line 11 and 13 if you prefer using Google.
-   */
   commands: [
     {
       name: "Duckduckgo",
       key: "*",
       url: "https://duckduckgo.com",
       search: "/?q={}",
-      color: "linear-gradient(135deg, #0c6fd1 0%, #bd59c7 100%)"
+      color: "linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%)"
     },
     {
       category: "Personal",
@@ -144,7 +137,8 @@ const CONFIG = {
       key: "u",
       url: "https://legislation.gov.uk",
       search: "/all?title={}",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color:
+        "linear-gradient( circle 297px at -2% -18.6%,  rgba(109,206,135,1) 0%, rgba(252,249,81,1) 62.7%, rgba(249,150,133,1) 90% )",
       icon: "uklaw",
       quickLaunch: false
     },
@@ -153,7 +147,8 @@ const CONFIG = {
       name: "OVH Webmail",
       key: "h",
       url: "https://pro1.mail.ovh.net/owa",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color:
+        "linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%)",
       icon: "ovh",
       quickLaunch: false
     },
@@ -162,7 +157,7 @@ const CONFIG = {
       name: "Uni Outlook",
       key: "l",
       url: "https://outlook.office365.com/mail/inbox",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color: "linear-gradient(to top, #30cfd0 0%, #330867 100%)",
       icon: "outlook",
       quickLaunch: false
     },
@@ -171,7 +166,7 @@ const CONFIG = {
       name: "WhatsApp",
       key: "w",
       url: "https://web.whatsapp.com",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color: "linear-gradient(to right, #4facfe 0%, #00f2fe 100%)",
       icon: "whatsapp",
       quickLaunch: false
     },
@@ -180,7 +175,8 @@ const CONFIG = {
       name: "Gmail",
       key: "g",
       url: "https://mail.google.com",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color: "linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)",
+
       icon: "gmail",
       quickLaunch: false
     },
@@ -189,7 +185,8 @@ const CONFIG = {
       name: "Unilearn",
       key: "k",
       url: "https://unilearn.southwales.ac.uk",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color:
+        "linear-gradient( circle farthest-corner at 10% 20%,  rgba(85,149,27,1) 0.1%, rgba(183,219,87,1) 90% )",
       icon: "unilearn",
       quickLaunch: true
     },
@@ -198,7 +195,8 @@ const CONFIG = {
       name: "Unilife",
       key: "z",
       url: "https://unilife.southwales.ac.uk",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color:
+        "linear-gradient( 89.7deg,  rgba(43,104,167,1) 20.9%, rgba(156,213,194,1) 77.6% )",
       icon: "unilearn",
       quickLaunch: true
     },
@@ -207,7 +205,8 @@ const CONFIG = {
       name: "USW Referencing",
       key: "x",
       url: "https://uppercenter.github.io/Psychic-Telegram/usw.pdf",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color:
+        "linear-gradient(circle farthest-corner at -8.9% 51.2%,  rgba(255,124,0,1) 0%, rgba(255,124,0,1) 15.9%, rgba(255,163,77,1) 15.9%, rgba(255,163,77,1) 24.4%, rgba(19,30,37,1) 24.5%, rgba(19,30,37,1) 66% )",
       icon: "pdf",
       quickLaunch: true
     },
@@ -216,7 +215,8 @@ const CONFIG = {
       name: "OneDrive",
       key: "o",
       url: "https://bit.ly/One-Drv",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color:
+        "linear-gradient( 109.6deg,  rgba(31,179,237,1) 11.2%, rgba(17,106,197,1) 91.1% )",
       icon: "onedrive",
       quickLaunch: true
     },
@@ -225,7 +225,7 @@ const CONFIG = {
       name: "Azure Software",
       key: "o",
       url: "https://bit.ly/AzureSoft",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color: "linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%)",
       icon: "azure",
       quickLaunch: true
     },
@@ -234,7 +234,7 @@ const CONFIG = {
       name: "Exploit Database",
       key: "e",
       url: "https://exploit-db.com",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color: "linear-gradient(to top, #0fd850 0%, #f9f047 100%)",
       icon: "exploit",
       quickLaunch: true
     },
@@ -243,7 +243,7 @@ const CONFIG = {
       name: "NIST Database",
       key: "n",
       url: "https://nvd.nist.gov/vuln/search",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color: "linear-gradient(to top, #e8198b 0%, #c7eafd 100%)",
       icon: "nist",
       quickLaunch: true
     },
@@ -252,8 +252,7 @@ const CONFIG = {
       name: "Greynoise Lookup",
       key: "g",
       url: "https://viz.greynoise.io",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
-      icon: "greynoise",
+      color: "linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%)",
       quickLaunch: false
     },
     {
@@ -261,7 +260,7 @@ const CONFIG = {
       name: "WHOIS Lookup",
       key: "p",
       url: "https://nvd.nist.gov/vuln/search",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color: "linear-gradient(60deg, #29323c 0%, #485563 100%)",
       icon: "whois",
       quickLaunch: false
     },
@@ -270,7 +269,7 @@ const CONFIG = {
       name: "Email Search",
       key: "n",
       url: "https://hunter.io",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      color: "linear-gradient(60deg, #96deda 0%, #50c9c3 100%)",
       icon: "hunter",
       quickLaunch: false
     },
@@ -278,8 +277,8 @@ const CONFIG = {
       category: "InfoSec",
       name: "Open Dir Search",
       key: "n",
-      url: "https://cgs.the-eye.eu/",
-      color: "linear-gradient(135deg, #7A5F00, #E8B708)",
+      url: "https://the-eye.eu/",
+      color: "linear-gradient( 135deg, #FFF886 10%, #F072B6 100%)",
       icon: "theeye",
       quickLaunch: false
     }
@@ -300,18 +299,9 @@ const CONFIG = {
    * - "History" suggestions come from your previously entered queries
    */
   influencers: [
-    {
-      name: "Default",
-      limit: 4
-    },
-    {
-      name: "History",
-      limit: 1
-    },
-    {
-      name: "DuckDuckGo",
-      limit: 4
-    }
+    { name: "Default", limit: 4 },
+    { name: "History", limit: 1 },
+    { name: "DuckDuckGo", limit: 4 }
   ],
 
   /**
@@ -319,9 +309,7 @@ const CONFIG = {
    */
   defaultSuggestions: {
     g: ["g/issues", "g/pulls", "gist.github.com"],
-    r: ["r/r/unixporn", "r/r/webdev", "r/r/technology"],
-    c: ["cloud.digitalocean.com"],
-    t: ["twitter.com"]
+    r: ["r/r/unixporn", "r/r/startpages", "r/r/webdev", "r/r/technology"]
   },
 
   /**
@@ -856,10 +844,7 @@ class QueryParser {
   }
 
   parse(query) {
-    const res = {
-      query: query,
-      split: null
-    };
+    const res = { query: query, split: null };
 
     if (this._urlRegex.test(query)) {
       const hasProtocol = this._protocolRegex.test(query);
