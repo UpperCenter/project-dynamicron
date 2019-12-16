@@ -253,6 +253,7 @@ const CONFIG = {
       key: "g",
       url: "https://viz.greynoise.io",
       color: "linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%)",
+      icon: "greynoise",
       quickLaunch: false
     },
     {
