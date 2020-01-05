@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/uppercenter
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://start.uppercenter.dev
+  * I am uppercenter (https://keybase.io/uppercenter) on keybase.
+  * I have a public key with fingerprint E684 32BE 5D60 A10B FF9F  87CE 0895 15EC 6040 06AE
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a5be0805373b2c44a263c7cbd15f78340ab229ecf5705210846263f0ec5db1ef0a",
+      "fingerprint": "e68432be5d60a10bff9f87ce089515ec604006ae",
+      "host": "keybase.io",
+      "key_id": "089515ec604006ae",
+      "kid": "0101f1efd6f3434e9a91862ba659a267d5d405ffd2ce595de4a3561258ad4593b1510a",
+      "uid": "ce1446f9661128cad3ac809d99aeae19",
+      "username": "uppercenter"
+    },
+    "service": {
+      "hostname": "start.uppercenter.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1578254913,
+  "expire_in": 157680000,
+  "prev": "6c048e3a235cce0f28772efde7aca9a3d7763b9d16d25c5b29310541640197f8",
+  "seqno": 33,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMN3AnicZVJ/UBRVHD9CDM8IKh1wAsRVcYzj3Le7b3/ckAYENjk6hDfgBMPxdvct
+LNDdcbd3cZGZZqWQIKKDk04zDhgkadcUamMMEVzYgKHUXMBMDYZoCmMp0Q8laY90
+ppneP2/e932+n8/n+5lvb1S4wRgWeWjpVPEzC0+F9Xe3eAxFj2ekVxOiQ/YRlmqi
+HM9fuELGbs1WrsqEhSABRSIoYpInIc3RIiUxDKJYWuIkUQZQ4XiaIZFIUQKWFMiR
+kAIkz7A6QiGxBGURYIVEhIlQVHsJdjldql3TaTHLMzQlYiizJAKkqCiCwnOSLiNA
+ALHEkgxJsgjrjaUOd6hDNyciNzarDr2mP2z/2vs//oFvEii6tswqNEMzWEAC4FlK
+RCwUdP+cDGWGhIoiUxKGApQxg2jIAgrySGagQIsAgnnfnnk6CQOGYRWBZQGgeAnJ
+NJJ4UpAFAWGEgRACurHLjl7COtrjdGKXhO0adhHbTYT+4VUlHMo2NMx9kFtDLs38
+H6hZxl6dx+lyaA7JUaFDSjXN6baEKDSfM9TzMhZt99lsomqX9Uz1Di92uVWHnbAA
+HSlpaogeQI6nICMA2kTgKqfqwjbVPl9meVI/IR1dzkKwEsnwmEYUDSU9f4XiOY7S
+c8MckpCAaJnjWFoUZMDKFJSgSAk0ICEDWIYEAqfwRGi+SruDsNC6lIZKQqOpJXak
+eVyY2P5ld+ECQ5jRsDDiodCyGYyLYh6s4Hpv9D3LkiKjnBMs8nW9Px1IMy5oDhYG
+BqN7N5h2V+d8P7faYLqRMH1h7ODlSPcyb/W2I0nnbCm7vA1P3W1lilrzahKyW60N
+MTOfWAMj+7z54Z/Hnqn+6mtfN16e4hlduufTjNyOsxv8dS+2J08fHL/X80VMfW7v
+G0NimzKaPRt7MsV801CzKGtjmn/nscW56R+8/Waj06+KU/WnrbV7gXntFuu6n4cL
+RrWf2NvTqxLjtw2dr9tdZp1btvZYp39sds3ywNXDUf5B40TTd9Kdrd8+snFHn2n6
+YS3ySEJTfSNde97MfDZ+IuOV/Nf6q3p/7NsXFiHfMh0ODii7TM3hWeW4pC4zGv1Z
+RZyiTSUXU1KfPyeP1qQmm8bLYq7nJ/UXG4Mfbmk3rhBXXpzoSATKSNPUpevNk1Gv
+b22f3PRWe/bwtaeHqLu+v36oihebmK7jeauvksUDv+9ffDJuJHK24uhex2RLoM0/
+DjJmWtRnN+0sJJ5cNfD3tV8M38D34m1MW5vrwnNj76yvJA8cXyI2xL/aYt6TmrSu
+s+CWadAfe6h+c8TNrisTxtm5s2xYy9AfyDfXYc06HRzeHGfuK4m5oRkr83cUZK6Y
+Sf61p6/Wo+ZV1qa/+8SjIzmZvsTSmDui9EJzY5l6u3PiRNrH+/3djwWkM8EDH000
+Hb2UmtJbWrrGeqUn7rLDt7J45Ld/ADXfwag=
+=H+xk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/uppercenter
+
+==================================================================
